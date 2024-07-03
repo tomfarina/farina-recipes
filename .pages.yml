@@ -3,5 +3,5 @@ content:
  - name: recipes
    label: Recipes
    type: collection
-   path: src/_recipes
+   path: _recipes
    
