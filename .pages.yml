@@ -5,7 +5,7 @@ content:
    type: collection
    path: _recipes
    view: 
-     fields: [title, date]
+     fields: [title, author, date]
    fields:
     - { name: title, label: Title, type: string }
     - { name: image, label: Image, type: image }
