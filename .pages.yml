@@ -4,4 +4,17 @@ content:
    label: Recipes
    type: collection
    path: _recipes
-   
+   fields:
+    - { name: title, label: Title, type: string }
+    - { name: date, label: Date, type: date }
+    - name: author
+      type: select
+      label: Author
+      options:
+        values:
+        - value: farina
+          label: Farina
+        - value: reynolds
+          label: Reynolds
+        - value: romano
+          label: Romano
